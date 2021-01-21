@@ -1,0 +1,12 @@
+<html>
+   <head>
+      <script type = "text/javascript"
+         src = "{{ url_for('static', filename = 'hello.js') }}" ></script>
+   </head>
+
+   <body style ="background-color:Magenta">
+      <input type = "button" onclick = "sayHello()" value = "Say Hello" />
+   <img src="{{ url_for('static', filename = 'index.jpeg') }}">
+   <a href="/Contact">Contact me </a>
+   </body>
+</html>
